@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Layer.h
+Neuron.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Neuron.h
+vector
+-
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Matrix.h
+vector
+-
+random
+-
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Neuron.h
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/src/Layer.cpp
+../include/Layer.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Layer.h
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/src/Matrix.cpp
+../include/Matrix.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Matrix.h
+iostream
+-
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/src/Neuron.cpp
+../include/Neuron.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Neuron.h
+math.h
+-
+
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/src/main.cpp
+iostream
+-
+../include/Neuron.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Neuron.h
+../include/Matrix.h
+/home/tatenda/Documents/CPP_Workspace/Neural_Network/include/Matrix.h
+
